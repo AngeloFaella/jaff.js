@@ -2,7 +2,15 @@
   "name": "jaff.js",
   "version": "1.0.1",
   "description": "Just Another Frontend Framework",
-  "author": "Angelo Faella",
+  "author": {
+    "name": "Angelo Faella",
+    "url": "https://github.com/AngeloFaella/",
+    "linkedin": "https://www.linkedin.com/in/angelo-faella/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AngeloFaella/jaff.js.git"
+  },
   "keywords": [
     "frontend",
     "framework",
