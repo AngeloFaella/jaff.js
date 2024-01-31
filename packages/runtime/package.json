@@ -1,6 +1,6 @@
 {
   "name": "jaff.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just Another Frontend Framework",
   "author": {
     "name": "Angelo Faella",
@@ -21,7 +21,7 @@
   ],
   "main": "dist/jaff.js.js",
   "files": [
-    "dist/jaff.js.js"
+    "dist/jaff.js"
   ],
   "scripts": {
     "build": "rollup -c",
