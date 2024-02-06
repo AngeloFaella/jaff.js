@@ -2,7 +2,7 @@ import {
   createApp,
   h,
   hFragment,
-} from "https://unpkg.com/jaff.js@1.0.2/dist/jaff.js";
+} from "https://unpkg.com/jaff.js@2.0.1/dist/jaff.js";
 
 const state = {
   currentTodo: "",
