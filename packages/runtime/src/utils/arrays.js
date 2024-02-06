@@ -24,6 +24,10 @@ class ArrayWithOriginalIndices {
     return this.#array.length;
   }
 
+  originalIndexAt(index) {
+    return this.#originalIndices[index];
+  }
+
   findIndexFrom(item, fromIndex) {
     for (let i = fromIndex; i < this.length; i++) {
       if (this.#equalsFn(item, this.#array[i])) {
