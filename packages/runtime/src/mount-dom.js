@@ -39,7 +39,7 @@ function createTextNode(vdom, parentEl, index) {
  * Fragment's "el" prop should reference the parent element
  * where its children are attached to.
  */
-function createFragmentNodes(vdom, parentEl) {
+function createFragmentNodes(vdom, parentEl, index) {
   const { children } = vdom;
   vdom.el = parentEl;
 

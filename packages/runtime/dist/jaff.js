@@ -320,7 +320,7 @@ function mountDOM(vdom, parentEl, index) {
       break;
     }
     case DOM_TYPES.FRAGMENT: {
-      createFragmentNodes(vdom, parentEl);
+      createFragmentNodes(vdom, parentEl, index);
       break;
     }
     default: {
@@ -334,7 +334,7 @@ function createTextNode(vdom, parentEl, index) {
   vdom.el = textNode;
   insert(textNode, parentEl, index);
 }
-function createFragmentNodes(vdom, parentEl) {
+function createFragmentNodes(vdom, parentEl, index) {
   const { children } = vdom;
   vdom.el = parentEl;
   children.forEach((child, i) =>
